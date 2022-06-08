@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(35, 32, 44);
+    
+    }
+    
+    #menu li:hover{
+    background-color: rgb(61, 43, 110) ;
+    border-radius: 2em;
+    
+    }
+    
+    
+    
+    
+    
+    
+    #inputEmail4:focus{
+    
+    border: solid white 1px;
+    box-shadow: none;
+    
+    }
+    
+    
+    
+    #inputPassword4:focus{
+    
+    border: solid white 1px;
+    box-shadow: none;
+    
+    }
+    
+    #invalidCheck{
+    
+        border: solid white 1px;
+    box-shadow: none;
+    
+    }
+    
+    
+    
+    #Sign-In{
+    
+    background-color:rgb(61, 43, 110) ;
+    border: none;
+    border-radius: 2em;
+    height: 40px;
+    
+    
+    }
+    
+    
+    #Sign-In a{
+    
+    text-decoration: none;
+    position: relative;
+    top: 6px;
+    color: white;
+    
+    
+    }
+    
+    #Sign-In:hover{
+    
+    background: linear-gradient(90deg,rgb(61, 43, 110),rgb(35, 32, 44));
+    
+    }
