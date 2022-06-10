@@ -1,6 +1,9 @@
 body{
 border: none;
-background-color: #1f2527
+background-image: url("FOndo.png");
+background-size: cover;
+
+
 }
 
 #menu li:hover{
