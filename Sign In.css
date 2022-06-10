@@ -1,17 +1,21 @@
 body{
-    background-color:rgb(35, 32, 44);
+background-color: #1f2527
     
     }
     
     #menu li:hover{
-    background-color: rgb(61, 43, 110) ;
-    border-radius: 2em;
-    
-    }
-    
-    
+        background-color: #0292e6 ;
+        border-radius: 2em;
+        
+        }
     
     
+    #inputUsuario:focus{
+    
+        border: solid white 1px;
+        box-shadow: none;
+        
+        }
     
     
     #inputEmail4:focus{
@@ -29,6 +33,17 @@ body{
     box-shadow: none;
     
     }
+
+
+    #inputPassword:focus{
+    
+        border: solid white 1px;
+        box-shadow: none;
+        
+        }
+    
+
+
     
     #invalidCheck{
     
@@ -39,18 +54,18 @@ body{
     
     
     
-    #Sign-In{
+    #Sign-In button{
     
-    background-color:rgb(61, 43, 110) ;
+    background-color:rgb(0, 162, 255) ;
     border: none;
     border-radius: 2em;
     height: 40px;
-    
+    width: 600px;
     
     }
     
     
-    #Sign-In a{
+    #Sign-In a button{
     
     text-decoration: none;
     position: relative;
@@ -60,8 +75,17 @@ body{
     
     }
     
-    #Sign-In:hover{
+    #Sign-In button:hover{
     
-    background: linear-gradient(90deg,rgb(61, 43, 110),rgb(35, 32, 44));
+    background: linear-gradient(90deg,rgb(0, 162, 255),rgb(0, 70, 110));
+
     
     }
+
+    .footer{
+        background: linear-gradient(90deg,rgb(0, 162, 255),rgb(0, 70, 110));
+        width: 100%;
+        max-height: 30px;
+        color: rgb(0, 162, 255);
+        padding: 3em;
+        }
