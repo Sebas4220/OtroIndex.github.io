@@ -1,0 +1,19 @@
+body{
+border: none;
+background-image: url("FOndo.png");
+background-size: cover;
+
+}
+    
+#Perfil img{
+
+padding: 0.3em;
+
+}
+
+
+#Perfil img:hover{
+
+    filter: drop-shadow( 0px 0px 6px #0292e6);
+    
+}
