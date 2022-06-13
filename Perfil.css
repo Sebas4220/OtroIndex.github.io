@@ -37,8 +37,8 @@ body{
 
     #Retirar:hover{
     
-filter: drop-shadow(  0px 0px 6px #00a2ff );
-     
+        background: linear-gradient(90deg,rgb(0, 162, 255),rgb(0, 70, 110));
+        
          }
 
 
@@ -57,7 +57,8 @@ filter: drop-shadow(  0px 0px 6px #00a2ff );
 
     #Depositar:hover{
     
-    filter: drop-shadow(  0px 0px 6px #00a2ff );
+        background: linear-gradient(90deg,rgb(0, 162, 255),rgb(0, 70, 110));
+
          
     }
     
